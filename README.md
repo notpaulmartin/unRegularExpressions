@@ -22,11 +22,11 @@ example: https://regex101.com/r/Ole6vp/1
 To add or remove columns, edit `_includes/interactive-table.html`:
 
 ```html
-	<th style="width:10%;"><span class="sort" data-sort="name">Name</span></th>
-	<th style="width:30%;"><span class="sort" data-sort="regex">Regex</span></th>
-	<th style="width:1%;"><span class="sort" data-sort="flags">Flags</span></th>
-	<th style="width:25%;"><span class="sort" data-sort="note">Note</span></th>
-	<th style="width:1%;"><span class="sort" data-sort="example">Example</span></th>
+<th style="width:10%;"><span class="sort" data-sort="name">Name</span></th>
+<th style="width:30%;"><span class="sort" data-sort="regex">Regex</span></th>
+<th style="width:1%;"><span class="sort" data-sort="flags">Flags</span></th>
+<th style="width:25%;"><span class="sort" data-sort="note">Note</span></th>
+<th style="width:1%;"><span class="sort" data-sort="example">Example</span></th>
 ```
 
 ```html
