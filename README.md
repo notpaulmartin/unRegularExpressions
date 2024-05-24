@@ -32,13 +32,13 @@ To add or remove columns, edit `_includes/interactive-table.html`:
 ```html
 <tbody class="list">
 {% for snippet in site.snippets %}
-	<tr>
-		<td class="name">{{ snippet.name }}</td>
-		<td class="regex"><code class="language-regex">{{ snippet.regex }}</code></td>
-		<td class="flags"><code>{{ snippet.flags }}</code></td>
-		<td class="note">{{ snippet.note }}</td>
-		<td class="example"><a href="{{ snippet.example }}">Link</a></td>
-	</tr>
+    <tr>
+        <td class="name">{{ snippet.name }}</td>
+        <td class="regex"><code class="language-regex">{{ snippet.regex }}</code></td>
+        <td class="flags"><code>{{ snippet.flags }}</code></td>
+        <td class="note">{{ snippet.note }}</td>
+        <td class="example"><a href="{{ snippet.example }}">Link</a></td>
+    </tr>
 {% endfor %}
 </tbody>
 ```
